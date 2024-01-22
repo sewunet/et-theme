@@ -7,7 +7,7 @@
 }
 *::-webkit-scrollbar-thumb {
   background-color: var(--scroll-color);
-  border-radius: 20px;
+  border-radius: 50px;
 }
 * {
   scrollbar-width: thin;
@@ -59,14 +59,14 @@
   --bg-color: #f2f5fa;
   --text-bold: 600;
   --control-bg: #fff;
-  --control-bg-on-gray: #d4dcea;
+  --control-bg-on-gray: #ffc107d4;
   --disabled-control-bg: #f2f5fa;
   --heading-color: #333;
   --border-color: #e3e8f1;
   --avatar-frame-bg: #dde2ea;
   --margin-lg: 15px;
-  --sidebar-select-color: #d4dcea;
-  --awesomplete-hover-bg: #d4dcea;
+  --sidebar-select-color: #ffc107d4;
+  --awesomplete-hover-bg: #ffc107d4;
   --scroll-bg: #eef1f5;
   --scroll-color: #d9dfe6;
 }
@@ -132,7 +132,7 @@ input:focus{
 
 /* Colours */
 :root {
-  --background-color: #36414c;
+  --background-color: #ffa707;
   --primary-color: #ffa00a;
   --secondary-color: #7574ff;
   --white-color: #ffffff;

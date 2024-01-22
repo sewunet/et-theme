@@ -14,7 +14,7 @@ app_include_css = "/assets/et_theme/css/et_themes.css"
 # app_include_js = "/assets/et_theme/js/et_theme.js"
 
 # include js, css files in header of web template
-web_include_css = "/assets/et_theme/css/et_theme.css"
+web_include_css = "/assets/et_theme/css/et_themes.css"
 # web_include_js = "/assets/et_theme/js/et_theme.js"
 
 # include custom scss in every website theme (without file extension ".scss")
