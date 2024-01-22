@@ -132,12 +132,12 @@ input:focus{
 
 /* Colours */
 :root {
-  --background-color: #8cc542;
-  --primary-color: #8cc542;
-  --secondary-color: #03ac4f;
-  --white-color: #ffffff;
-  --black-color: #000000;
-  --gray-color: #888;
+  --background-color: #8cc542 !important;
+  --primary-color: #8cc542 !important;
+  --secondary-color: #03ac4f !important;
+  --white-color: #ffffff !important;
+  --black-color: #000000 !important;
+  --gray-color: #888 !important;
 
   --page-head-height: 50px;
   --navbar-height: 50px;
@@ -212,13 +212,13 @@ header .form-control:focus {
 .search-bar .awesomplete input {
   height: 32px;
 }
-/*#navbar-search{
-    width: 300px;
-    background-color: rgb(65, 78, 90);
-    border-radius: 0px;
-    color: #f9f9f9;
-    border: none;
-}*/
+#navbar-search {
+  width: 300px;
+  background-color: rgb(65, 78, 90);
+  border-radius: 0px;
+  color: #f9f9f9;
+  border: none;
+}
 header ul#navbar-breadcrumbs {
   margin-top: -8px;
 }
