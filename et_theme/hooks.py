@@ -18,7 +18,7 @@ app_license = "mit"
 # web_include_js = "/assets/et_theme/js/et_theme.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "et_theme/public/scss/et_theme"
+website_theme_scss = "et_theme/public/scss/et_theme"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
