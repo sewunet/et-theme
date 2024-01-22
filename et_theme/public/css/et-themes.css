@@ -132,12 +132,12 @@ input:focus{
 
 /* Colours */
 :root {
-  --background-color: #8cc542 !important;
-  --primary-color: #8cc542 !important;
-  --secondary-color: #03ac4f !important;
-  --white-color: #ffffff !important;
-  --black-color: #000000 !important;
-  --gray-color: #888 !important;
+  --background-color: #36414c;
+  --primary-color: #ffa00a;
+  --secondary-color: #7574ff;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --gray-color: #888;
 
   --page-head-height: 50px;
   --navbar-height: 50px;
@@ -154,7 +154,7 @@ input:focus{
   border-radius: 0 !important;
 }
 .btn-primary:hover {
-  background-color: #03ac4f !important;
+  background-color: rgba(255, 120, 10, 0.93) !important;
 }
 /* .btn-secondary{
     background-color: #606060 !important;
@@ -212,13 +212,13 @@ header .form-control:focus {
 .search-bar .awesomplete input {
   height: 32px;
 }
-#navbar-search {
-  width: 300px;
-  background-color: rgb(65, 78, 90);
-  border-radius: 0px;
-  color: #f9f9f9;
-  border: none;
-}
+/*#navbar-search{
+    width: 300px;
+    background-color: rgb(65, 78, 90);
+    border-radius: 0px;
+    color: #f9f9f9;
+    border: none;
+}*/
 header ul#navbar-breadcrumbs {
   margin-top: -8px;
 }
@@ -326,10 +326,3 @@ symbol#icon-small-down {
 .filter-button span.filter-icon svg.icon{
     stroke: var(--white-color);
 } */
-.web-footer {
-  padding: 3rem 0;
-  min-height: 140px;
-  background-color: #1d7b28 !important;
-  border-top: 1px solid #e2e2e2;
-  margin-top: auto;
-}
