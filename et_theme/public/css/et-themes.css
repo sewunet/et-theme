@@ -59,14 +59,14 @@
   --bg-color: #f2f5fa;
   --text-bold: 600;
   --control-bg: #fff;
-  --control-bg-on-gray: #ffc107d4;
+  --control-bg-on-gray: #8dc63f;
   --disabled-control-bg: #f2f5fa;
   --heading-color: #333;
   --border-color: #e3e8f1;
   --avatar-frame-bg: #dde2ea;
   --margin-lg: 15px;
-  --sidebar-select-color: #ffc107d4;
-  --awesomplete-hover-bg: #ffc107d4;
+  --sidebar-select-color: #8dc63f;
+  --awesomplete-hover-bg: #8dc63f;
   --scroll-bg: #eef1f5;
   --scroll-color: #d9dfe6;
 }
@@ -132,15 +132,15 @@ input:focus{
 
 /* Colours */
 :root {
-  --background-color: #ffa707;
-  --primary-color: #ffa00a;
-  --secondary-color: #7574ff;
+  --background-color: #8dc63f;
+  --primary-color: rgb(0, 171, 78);
+  --secondary-color: #0072bc;
   --white-color: #ffffff;
   --black-color: #000000;
   --gray-color: #888;
 
   --page-head-height: 50px;
-  --navbar-height: 50px;
+  --navbar-height: 60px;
 }
 .btn-primary:active,
 .btn-secondary:focus,
@@ -154,7 +154,7 @@ input:focus{
   border-radius: 0 !important;
 }
 .btn-primary:hover {
-  background-color: rgba(255, 120, 10, 0.93) !important;
+  background-color: #8dc63f !important;
 }
 /* .btn-secondary{
     background-color: #606060 !important;
